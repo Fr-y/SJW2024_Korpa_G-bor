@@ -1,1 +1,1 @@
-# SJW2024_Korpa_G-bor
+# SJW2024_Korpa_Gabor
