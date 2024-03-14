@@ -13,6 +13,9 @@
     color: white;
     text-shadow: 5px 5px 10px black;
 
+    font-size: 3em;
+    text-transform: uppercase;
+
     height: 400pt;
     background-image: url('../img/balaton_bg.jpg');
     background-size: cover;
@@ -25,15 +28,23 @@
 
 }
 
+@media only screen and (max-width: 992px) {
+    .fejlec {
+        font-size: 1.5em;
+    }
+  }
+
 .navbar{
     background-color: var(--sotetkek);
     color: white;
 }
 
+
 h2{
     font-family: "Marhey", sans-serif;
     color: var(--vilagoskek);
     text-decoration: underline wavy;
+    font-variant: small-caps;
 }
 
 footer{
@@ -44,7 +55,11 @@ footer{
     text-shadow: 5px 5px 10px black;
 
 }
-
+table{
+    width: 80%;
+    /* en ratettem de nem megy */
+    box-shadow: 1px, 1px, 10px, var(--sotetkek);
+}
 table thead{
     text-align: center;
     font-family: "Marhey", sans-serif;
