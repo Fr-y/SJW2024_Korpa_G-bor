@@ -29,3 +29,43 @@
     background-color: var(--sotetkek);
     color: white;
 }
+
+h2{
+    font-family: "Marhey", sans-serif;
+    color: var(--vilagoskek);
+    text-decoration: underline wavy;
+}
+
+footer{
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+
+    color: white;
+    text-shadow: 5px 5px 10px black;
+
+}
+
+table thead{
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+}
+table tbody{
+    background-color: #e6f3f8;
+}
+table tbody tr{
+    border-bottom: 1pt solid var(--sotetkek);
+}
+table tbody tr td:first-child{
+    color: var(--sotetkek);
+    font-weight: bold;
+}
+
+
+.sotetkek{
+    background-color: var(--sotetkek);
+    color: white;
+}
+.vilagoskek{
+    background-color: var(--vilagoskek);
+    color: white;
+}
